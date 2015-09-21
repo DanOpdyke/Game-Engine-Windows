@@ -28,6 +28,9 @@
     <Filter Include="Source Files\Components">
       <UniqueIdentifier>{65b610bb-1e6d-496b-b680-e656b746613e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Core\Entity Creation">
+      <UniqueIdentifier>{ce62d273-78ff-410f-b9b5-7d09a6075f6f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -75,6 +78,15 @@
     <ClInclude Include="PlayerInputComponent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="AutoMovementComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LifeTimerComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectConstructor.h">
+      <Filter>Source Files\Core\Entity Creation</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -108,6 +120,12 @@
       <Filter>Source Files\Core</Filter>
     </ClCompile>
     <ClCompile Include="PlayerInputComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoMovementComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="LifeTimerComponent.cpp">
       <Filter>Source Files\Components</Filter>
     </ClCompile>
   </ItemGroup>

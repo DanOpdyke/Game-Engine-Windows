@@ -147,12 +147,15 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AutoMovementComponent.h" />
     <ClInclude Include="Component.h" />
     <ClInclude Include="DemoMovementComponent.h" />
     <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameObjectConstructor.h" />
     <ClInclude Include="InputState.h" />
     <ClInclude Include="Level.h" />
     <ClInclude Include="LevelInputHandler.h" />
+    <ClInclude Include="LifeTimerComponent.h" />
     <ClInclude Include="PhysicsBody.h" />
     <ClInclude Include="PlayerInputComponent.h" />
     <ClInclude Include="RenderComponent.h" />
@@ -163,10 +166,12 @@
     <ClInclude Include="World.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AutoMovementComponent.cpp" />
     <ClCompile Include="DemoMovementComponent.cpp" />
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="Level.cpp" />
     <ClCompile Include="LevelInputHandler.cpp" />
+    <ClCompile Include="LifeTimerComponent.cpp" />
     <ClCompile Include="PhysicsBody.cpp" />
     <ClCompile Include="PlayerInputComponent.cpp" />
     <ClCompile Include="RenderComponent.cpp" />
