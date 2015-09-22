@@ -3,6 +3,9 @@
 #include "RenderSystem.h"
 #include "LevelInputHandler.h"
 #include "GameObject.h"
+#include "EntityManager.h"
+#include "EntityFactory.h"
+
 namespace SI
 {
 	class Level :
@@ -18,8 +21,10 @@ namespace SI
 		~Level();
 	private:
 		RenderSystem *renderSystem;
+		EntityManager *entityManager;
+		EntityFactory *entityFactory;
 		LevelInputHandler inputHandler{};
-		GameObject testObject{};
+		GameObject *testObject{};
 		sf::Vector2<float> position{};
 	};
 }

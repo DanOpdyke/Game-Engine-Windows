@@ -85,7 +85,25 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="GameObjectConstructor.h">
-      <Filter>Source Files\Core\Entity Creation</Filter>
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerConstructor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoGunConstructor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletConstructor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoGunComponent.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -126,6 +144,24 @@
       <Filter>Source Files\Components</Filter>
     </ClCompile>
     <ClCompile Include="LifeTimerComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerConstructor.cpp">
+      <Filter>Source Files\Core\Entity Creation</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Source Files\Core\Entity Creation</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityFactory.cpp">
+      <Filter>Source Files\Core\Entity Creation</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoGunConstructor.cpp">
+      <Filter>Source Files\Core\Entity Creation</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletConstructor.cpp">
+      <Filter>Source Files\Core\Entity Creation</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoGunComponent.cpp">
       <Filter>Source Files\Components</Filter>
     </ClCompile>
   </ItemGroup>

@@ -10,6 +10,7 @@ namespace SI
 		LifeTimerComponent(float lifeTime) : timeToLive(lifeTime) {};
 		~LifeTimerComponent();
 	private:
+		// Life time, in seconds
 		float timeToLive = 0;
 
 		// Inherited via Component

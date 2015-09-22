@@ -148,8 +148,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AutoMovementComponent.h" />
+    <ClInclude Include="BulletConstructor.h" />
     <ClInclude Include="Component.h" />
+    <ClInclude Include="DemoGunComponent.h" />
+    <ClInclude Include="DemoGunConstructor.h" />
     <ClInclude Include="DemoMovementComponent.h" />
+    <ClInclude Include="EntityFactory.h" />
+    <ClInclude Include="EntityManager.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="GameObjectConstructor.h" />
     <ClInclude Include="InputState.h" />
@@ -157,6 +162,7 @@
     <ClInclude Include="LevelInputHandler.h" />
     <ClInclude Include="LifeTimerComponent.h" />
     <ClInclude Include="PhysicsBody.h" />
+    <ClInclude Include="PlayerConstructor.h" />
     <ClInclude Include="PlayerInputComponent.h" />
     <ClInclude Include="RenderComponent.h" />
     <ClInclude Include="RenderSystem.h" />
@@ -167,12 +173,18 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AutoMovementComponent.cpp" />
+    <ClCompile Include="BulletConstructor.cpp" />
+    <ClCompile Include="DemoGunComponent.cpp" />
+    <ClCompile Include="DemoGunConstructor.cpp" />
     <ClCompile Include="DemoMovementComponent.cpp" />
+    <ClCompile Include="EntityFactory.cpp" />
+    <ClCompile Include="EntityManager.cpp" />
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="Level.cpp" />
     <ClCompile Include="LevelInputHandler.cpp" />
     <ClCompile Include="LifeTimerComponent.cpp" />
     <ClCompile Include="PhysicsBody.cpp" />
+    <ClCompile Include="PlayerConstructor.cpp" />
     <ClCompile Include="PlayerInputComponent.cpp" />
     <ClCompile Include="RenderComponent.cpp" />
     <ClCompile Include="RenderSystem.cpp" />

@@ -6,6 +6,6 @@
 namespace SI {
 	class GameObjectConstructor {
 	public:
-		virtual GameObject *createObject(RenderSystem &renderSystem, LevelInputHandler &inputHandler) = 0;
+		virtual GameObject &configureObject(RenderSystem &renderSystem, LevelInputHandler &inputHandler, GameObject &object) = 0;
 	};
 }
