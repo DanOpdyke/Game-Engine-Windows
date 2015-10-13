@@ -4,4 +4,5 @@ struct InputState {
 	bool MovingDown;
 	bool MovingLeft;
 	bool MovingRight;
+	bool Firing;
 };

@@ -148,6 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AutoMovementComponent.h" />
+    <ClInclude Include="BasicGun.h" />
     <ClInclude Include="BulletConstructor.h" />
     <ClInclude Include="Component.h" />
     <ClInclude Include="DemoGunComponent.h" />
@@ -167,12 +168,14 @@
     <ClInclude Include="RenderComponent.h" />
     <ClInclude Include="RenderSystem.h" />
     <ClInclude Include="Scene.h" />
+    <ClInclude Include="Spawner.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="World.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AutoMovementComponent.cpp" />
+    <ClCompile Include="BasicGun.cpp" />
     <ClCompile Include="BulletConstructor.cpp" />
     <ClCompile Include="DemoGunComponent.cpp" />
     <ClCompile Include="DemoGunConstructor.cpp" />

@@ -2,6 +2,7 @@
 #include "GameObjectConstructor.h"
 #include "EntityManager.h"
 #include "GameObject.h"
+#include "Spawner.h"
 
 namespace SI
 {
@@ -19,5 +20,4 @@ namespace SI
 		LevelInputHandler &inputHandler;
 		EntityManager &entityManager;
 	};
-
 }
